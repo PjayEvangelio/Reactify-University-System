@@ -1,0 +1,80 @@
+.set-student-grades-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-container {
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.form button:disabled {
+  background-color: #cccccc;
+}
+
+.form-message {
+  color: #d9534f;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.set-grade-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.set-grade-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.degrees-list-container {
+  margin-top: 20px;
+}
+
+.degrees-list-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list-group-item-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  display: inline-block;
+  width: 110px;
+  text-align: center;
+  margin-left: 10px;
+}

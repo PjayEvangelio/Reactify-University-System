@@ -1,0 +1,53 @@
+.modules-by-cohort-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.module-card {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.module-card .card-body {
+  padding: 1.25rem; 
+}
+
+.module-card h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.module-card .card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+.module-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.module-card a:hover {
+  text-decoration: underline;
+}
+
+h1.text-center {
+  color: #333;
+  margin-bottom: 2rem;
+}

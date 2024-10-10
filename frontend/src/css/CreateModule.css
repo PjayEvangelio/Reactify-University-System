@@ -1,0 +1,60 @@
+.create-module-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-container {
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-container label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.form-container input[type="text"], 
+.form-container input[type="number"], 
+.form-container .basic-multi-select,
+.form-container .select__control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-container button[type="submit"] {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}

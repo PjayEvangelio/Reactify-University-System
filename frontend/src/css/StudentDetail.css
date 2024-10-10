@@ -1,0 +1,100 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.student-detail-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: black;
+  text-align: center;
+}
+
+.student-info p, .student-info .email-info {
+  color: #495057;
+  margin-bottom: 12px;
+}
+
+.student-info .email-info {
+  margin-bottom: 2rem;
+}
+
+.note-display {
+  font-weight: bold;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0.25rem;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: fit-content;
+}
+
+.table {
+  margin-top: 24px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table th {
+  background-color: #e9ecef;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+  text-align: left;
+  padding: 16px;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.list-group-item.explanation {
+  background-color: #e9ecef;
+  color: #495057;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-style: italic;
+  list-style-type: none;
+}
+
+.list-group-item {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-bottom: 1px solid #dee2e6;
+}
+
+.list-group-item:last-child {
+  border-bottom: 0;
+}
+
+.list-group-flush {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.module-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.module-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

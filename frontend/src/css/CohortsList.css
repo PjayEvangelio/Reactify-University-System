@@ -1,0 +1,14 @@
+.cohorts-list-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list-group-item-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  margin-left: 10px;
+}
